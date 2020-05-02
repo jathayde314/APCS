@@ -28,10 +28,6 @@ J - jump to a random square
 
 M - start/stop music
 
-### Errors
-
-No errors that I could find. If you discover any please let me know at [aaron@keydesign.com](mailto:aaron@keydesign.com).
-
 ### Code Overview
 
 Hivolts.Java
@@ -118,12 +114,9 @@ PositionList.java
     
     - Randomizing algorithm borrowed from Think AP Java.
 
-### Major Challenges
-
-One major challenge I came across was generalizing the mho code. With help from Joshua, I managed to find a way to procedurally generate mhos and calculate their moves in order using for loops.
-
 ### Acknowledgments
 
+* [Aaron Campbell](https://github.com/DaNrd) - wrote ReadMe, created images, found music, wrote much of the functional code
 * [Ivory Tang](https://github.com/ivoryttang) - helped with npc movement functions and GameFrame
 * [Josh Athayde](https://github.com/jathayde314) - wrote the npc movement functions and helped with GameFrame
 * [Jasmine Kapadia](https://github.com/jk26966) - painted graphics, added sprite animations, checked other code
