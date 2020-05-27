@@ -11,4 +11,4 @@ Group project game.
 Create particles that collide into each other and the walls. Note: all collisions are completely elastic and momentum is not preserved.
 
 ### 2048
-Play 2048 or watch an AI play the game.
+Play 2048 or watch an AI play the game. Code lost when hardrive had to be reset.
