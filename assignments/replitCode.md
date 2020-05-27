@@ -1,7 +1,7 @@
 Original Code can be found at https://repl.it/talk/learn/An-Introduction-to-Java/13450.
 
 
-Playing around with commments:
+Playing around with comments:
 ```
 class Main {
   public static void main(String[] args) {
