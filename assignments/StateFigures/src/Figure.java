@@ -33,7 +33,7 @@ public class Figure {
         return "Day: " + day + " Fips: " + fips + " Cases: " + cases + " Deaths: " + deaths;
     }
 
-    private static int ifromdate(String[] date) {
+    public static int ifromdate(String[] date) {
         int retval = 0;
         int year = Integer.parseInt(date[0]);
         int month = Integer.parseInt(date[1]);
@@ -91,45 +91,5 @@ public class Figure {
             }
         }
         return totalDeaths;
-    }
-
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("How many figures?");
-        int numDates = scanner.nextInt();
-
-        String[][] partData = new String[numDates][3];
-        ArrayList<Figure> data = new ArrayList<>();
-
-        for(int i = 0; i < numDates; i++) {
-            System.out.print("year");
-            String year = scanner.next();
-            partData[i][0] = year;
-            System.out.print("month");
-            String month = scanner.next();
-            partData[i][1] = month;
-            System.out.print("day");
-            String day = scanner.next();
-            partData[i][2] = day;
-            int date = ifromdate(partData[i]);
-
-            System.out.println("fips");
-            int fips = Integer.parseInt(scanner.next());
-
-            System.out.println("cases");
-            int cases = Integer.parseInt(scanner.next());
-
-            System.out.println("deaths");
-            int deaths = Integer.parseInt(scanner.next());
-
-            Figure dataPoint = new Figure(date, fips, cases, deaths);
-            data.add(dataPoint);
-            System.out.println(dataPoint);
-        }
-
-        System.out.println("Day to find total deaths");
-        int day = Integer.parseInt(scanner.next());
-        int totalDeaths = getTotalDeathsOnDay(data, day);
-        System.out.println("Total Deaths: " + totalDeaths);
     }
 }
