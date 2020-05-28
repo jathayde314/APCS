@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/APCS.iml" filepath="$PROJECT_DIR$/APCS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StateFigures.iml" filepath="$PROJECT_DIR$/StateFigures.iml" />
     </modules>
   </component>
 </project>
